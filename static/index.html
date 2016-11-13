@@ -283,7 +283,7 @@ function wsSetup() {
             //XXX: TODO What are you going to do here? 
 	    var msgData= JSON.parse(msg.data);
 	    for (i in msgData){
-		world[i]=data[i];	    
+		world[i]=msgData[i];	    
 	    
 	    }
 	    drawNextFrame();
